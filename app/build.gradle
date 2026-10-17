@@ -1,0 +1,19 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'io.github.wxoled'
+    compileSdk 36
+
+    defaultConfig {
+        applicationId 'io.github.wxoled'
+        minSdk 28
+        targetSdk 36
+        versionCode 28
+        versionName '1.5.22-webview-seam-overlay'
+    }
+}
+
+dependencies {
+    // Legacy Xposed API; provided by LSPosed at runtime and never packaged in the APK.
+    compileOnly 'de.robv.android.xposed:api:82'
+}

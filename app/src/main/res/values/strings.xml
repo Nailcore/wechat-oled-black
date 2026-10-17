@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">微信纯黑 OLED</string>
+    <string name="restart_wechat">重启微信，立即生效</string>
+    <string name="settings_hint">更新模块、或在 LSPosed 里改了勾选之后，点下面的按钮重启微信即可生效，不需要重启手机。</string>
+    <string name="wechat_missing">没有找到微信</string>
+    <string name="xposed_description">把微信深色模式的灰色背景换成 OLED 纯黑，同时保留分割线、分组、气泡和浮层的层次。</string>
+    <string-array name="xposed_scope"><item>com.tencent.mm</item></string-array>
+</resources>
