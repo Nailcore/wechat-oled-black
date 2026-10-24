@@ -13,7 +13,7 @@ import java.net.*;
 import java.util.regex.*;
 
 public class SettingsActivity extends Activity {
-    private static final String WECHAT="com.tencent.mm", REPO="https://github.com/gxwangpai007-ops/wechat-oled-black", LATEST=REPO.replace("github.com/","api.github.com/repos/")+"/releases/latest";
+    private static final String WECHAT="com.tencent.mm", REPO="https://github.com/Nailcore/wechat-oled-black", LATEST=REPO.replace("github.com/","api.github.com/repos/")+"/releases/latest";
     private final Handler main=new Handler(Looper.getMainLooper());
     private Button restart, checkUpdate;
     @Override protected void onCreate(Bundle state) { super.onCreate(state); setContentView(page()); }
