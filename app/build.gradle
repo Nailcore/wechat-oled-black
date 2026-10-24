@@ -8,8 +8,8 @@ android {
         applicationId 'io.github.wxoled'
         minSdk 28
         targetSdk 36
-        versionCode 28
-        versionName '1.5.22-webview-seam-overlay'
+        versionCode 29
+        versionName '1.5.23'
     }
 }
 

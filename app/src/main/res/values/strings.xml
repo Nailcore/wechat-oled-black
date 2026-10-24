@@ -1,8 +1,15 @@
 <resources>
     <string name="app_name">微信纯黑 OLED</string>
     <string name="restart_wechat">重启微信，立即生效</string>
-    <string name="settings_hint">更新模块、或在 LSPosed 里改了勾选之后，点下面的按钮重启微信即可生效，不需要重启手机。</string>
+    <string name="current_version">当前版本：%1$s</string>
+    <string name="environment_title">测试环境</string>
+    <string name="environment_details">Android 17 / 微信 8.0.76 / LSPosed 2.0.2</string>
+    <string name="compatibility_title">兼容提醒</string>
+    <string name="compatibility_details">本模块按微信 8.0.76 测试。微信、系统或 LSPosed 升级后，效果可能变化；升级前请保留可回退的 APK 备份。</string>
     <string name="wechat_missing">没有找到微信</string>
+    <string name="check_update">检查更新</string><string name="open_releases">查看下载 / Release</string><string name="open_source">查看源代码</string><string name="report_issue">问题反馈</string><string name="open_license">查看 MIT 许可证</string>
+    <string name="checking_update">正在检查更新…</string><string name="already_latest">已是最新版</string><string name="local_version_newer">本地版本已高于最新 Release</string><string name="update_found">发现新版本：%1$s，将打开 Release 页面</string><string name="update_failed">检查失败，请稍后再试或打开 Release 页面查看</string><string name="no_browser">没有可用的浏览器，无法打开链接</string><string name="open_link_failed">链接打不开，请稍后再试</string>
+    <string name="privacy_title">隐私说明</string><string name="privacy_details">只有你点“检查更新”时，模块才会通过 HTTPS 访问 GitHub 的最新 Release 接口。不收集、不上传聊天或页面内容。</string><string name="disclaimer_title">非官方提醒</string><string name="disclaimer_details">这是非官方主题模块，与腾讯或微信没有隶属或背书关系。微信商标归权利人所有；请自行评估风险并先备份。</string>
     <string name="xposed_description">把微信深色模式的灰色背景换成 OLED 纯黑，同时保留分割线、分组、气泡和浮层的层次。</string>
     <string-array name="xposed_scope"><item>com.tencent.mm</item></string-array>
 </resources>
